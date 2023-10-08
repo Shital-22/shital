@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<div lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background-color: #eee;
+                font-family: sans-serif;
+            }
+
+            .bg-header {
+                background-color: indigo;
+                height: 200px;
+            }
+
+            .card {
+                width: 400px;
+                border: 2px solid indigo;
+                margin: 0 auto;
+                margin-top: -150;
+                border-radius: 5px ;
+            }
+
+            .card-header {
+                background-image: url(./assets/img/images/background.svg);
+                height: 150px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                flex-direction: column;
+                color: white;
+                gap: 1rem;
+            }
+
+            .card-body {
+                padding: 2rem;
+                background-color: white;
+            }
+
+            .group {
+                display: flex;
+            }
+
+            .group span {
+                background-color: indigo;
+                padding: 1rem;
+                color: white;
+            }
+
+            .group input {
+                width: 100%;
+                border: 1px solid indigo;
+            }
+
+            .sub {
+                color: gray;
+                margin: 1rem 0;
+            }
+
+            .btn {
+                border: none;
+                background-color: indigo;
+                padding: 1rem;
+                color: white;
+                width: 100%;
+                border-radius: 5px;
+            }
+
+    </style>
+</head>
+
+<div>
+    <div class="bg-header"></div>
+    <div class="card">
+        <div class="card-header">
+            <h1>secure login</h1>
+            <p>powered by SKILLHUB</p>
+        </div>
+        <div class="card-body">
+            <div class="group">
+                <span>suername</span>
+                <input placeholder="enter user name" type="text">
+             </div>
+
+        </div>
+            <p class="sub">Lorem ipsum dolor sit amet.</p>
+            <div class="group">
+                <span>username</span>
+                <input placeholder="enter user name" type="text">
+
+            </div>
+            <p class="sub">Lorem ipsum dolor sit amet.</p>
+            <div class="group">
+                <span>username</span>
+                <input placeholder="enter user name" type="text">
+                </div>
+            </div>
+            <p class="sub">Lorem ipsum dolor sit amet.</p>
+            <button class="btn">login</button>
+        </div>
+    </div>
+    
+</body>
+</html>
